@@ -244,6 +244,7 @@ plt.xlabel('quarters')
 plt.ylabel('absolute deviations from ss')
 plt.show()
 
+fig=plt.figure()
 dc_01_10_lin=td_lin['C01_10']
 dc_90_99_lin=td_lin['C90_99']
 plt.plot(100 * dc_01_10_lin[:50]/ss['C01_10'], label='linear poorest 10%', linestyle='-', linewidth=2.5)
@@ -254,7 +255,9 @@ plt.xlabel('quarters')
 plt.ylabel('% deviation from ss')
 plt.legend()
 plt.show()
+fig.savefig('Consump_dist_irfs_sg.png')
 
+fig2=plt.figure()
 dn_lin=td_lin['N']
 dn_01_10_lin=td_lin['N01_10']
 dn_90_99_lin=td_lin['N90_99']
@@ -266,6 +269,7 @@ plt.xlabel('quarters')
 plt.ylabel('% deviation from ss')
 plt.legend()
 plt.show()
+fig.savefig('Lab_dist_irfs_sg.png')
 
 
 # Consumption decomposition chart
