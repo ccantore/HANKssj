@@ -1,7 +1,7 @@
 import os
 import pickle
 
-mainpath='/home/jamie/OneDrive/Documents/research/HANK/HANK_ssj_git/OneAsset'
+mainpath='/Users/cristiano/Dropbox/My Mac (Cristiano’s MacBook Pro)/Documents/GitHub/HANKssj/OneAsset'
 
 os.chdir(mainpath)
 
