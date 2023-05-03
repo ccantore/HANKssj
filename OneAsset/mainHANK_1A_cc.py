@@ -269,7 +269,7 @@ plt.xlabel('quarters')
 plt.ylabel('% deviation from ss')
 plt.legend()
 plt.show()
-fig.savefig('Lab_dist_irfs_sg.png')
+fig2.savefig('Lab_dist_irfs_sg.png')
 
 
 # Consumption decomposition chart
